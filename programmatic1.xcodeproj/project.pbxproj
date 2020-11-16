@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		3BDAD071256243B50057BD10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDAD070256243B50057BD10 /* AppDelegate.m */; };
 		3BDAD074256243B50057BD10 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDAD073256243B50057BD10 /* SceneDelegate.m */; };
-		3BDAD077256243B50057BD10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDAD076256243B50057BD10 /* ViewController.m */; };
-		3BDAD07A256243B50057BD10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BDAD078256243B50057BD10 /* Main.storyboard */; };
 		3BDAD07C256243B60057BD10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BDAD07B256243B60057BD10 /* Assets.xcassets */; };
 		3BDAD07F256243B60057BD10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BDAD07D256243B60057BD10 /* LaunchScreen.storyboard */; };
 		3BDAD082256243B60057BD10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDAD081256243B60057BD10 /* main.m */; };
+		3BDAD08C256246D50057BD10 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDAD08B256246D50057BD10 /* RootViewController.m */; };
+		3BDAD094256248E40057BD10 /* Project1.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDAD093256248E40057BD10 /* Project1.m */; };
+		3BDAD09B256249C20057BD10 /* ThirdScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDAD09A256249C20057BD10 /* ThirdScreen.m */; };
+		3BDAD0A0256252960057BD10 /* MyFirstMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDAD09F256252960057BD10 /* MyFirstMap.m */; };
+		3BDAD0A425625C2A0057BD10 /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BDAD0A325625C2A0057BD10 /* MapAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +25,20 @@
 		3BDAD070256243B50057BD10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3BDAD072256243B50057BD10 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		3BDAD073256243B50057BD10 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		3BDAD075256243B50057BD10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3BDAD076256243B50057BD10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3BDAD079256243B50057BD10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BDAD07B256243B60057BD10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BDAD07E256243B60057BD10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BDAD080256243B60057BD10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BDAD081256243B60057BD10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BDAD08B256246D50057BD10 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		3BDAD090256247580057BD10 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		3BDAD092256248D20057BD10 /* Project1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Project1.h; sourceTree = "<group>"; };
+		3BDAD093256248E40057BD10 /* Project1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Project1.m; sourceTree = "<group>"; };
+		3BDAD0992562499B0057BD10 /* ThirdScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdScreen.h; sourceTree = "<group>"; };
+		3BDAD09A256249C20057BD10 /* ThirdScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdScreen.m; sourceTree = "<group>"; };
+		3BDAD09E256252770057BD10 /* MyFirstMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFirstMap.h; sourceTree = "<group>"; };
+		3BDAD09F256252960057BD10 /* MyFirstMap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFirstMap.m; sourceTree = "<group>"; };
+		3BDAD0A225625C150057BD10 /* MapAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapAnnotation.h; sourceTree = "<group>"; };
+		3BDAD0A325625C2A0057BD10 /* MapAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,19 +71,58 @@
 		3BDAD06E256243B50057BD10 /* programmatic1 */ = {
 			isa = PBXGroup;
 			children = (
+				3BDAD09D256252590057BD10 /* MyFirstMap */,
+				3BDAD098256249880057BD10 /* Project2 */,
+				3BDAD091256248BD0057BD10 /* Project1 */,
+				3BDAD08A256246A80057BD10 /* RootViewController */,
 				3BDAD06F256243B50057BD10 /* AppDelegate.h */,
 				3BDAD070256243B50057BD10 /* AppDelegate.m */,
 				3BDAD072256243B50057BD10 /* SceneDelegate.h */,
 				3BDAD073256243B50057BD10 /* SceneDelegate.m */,
-				3BDAD075256243B50057BD10 /* ViewController.h */,
-				3BDAD076256243B50057BD10 /* ViewController.m */,
-				3BDAD078256243B50057BD10 /* Main.storyboard */,
 				3BDAD07B256243B60057BD10 /* Assets.xcassets */,
 				3BDAD07D256243B60057BD10 /* LaunchScreen.storyboard */,
 				3BDAD080256243B60057BD10 /* Info.plist */,
 				3BDAD081256243B60057BD10 /* main.m */,
 			);
 			path = programmatic1;
+			sourceTree = "<group>";
+		};
+		3BDAD08A256246A80057BD10 /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3BDAD08B256246D50057BD10 /* RootViewController.m */,
+				3BDAD090256247580057BD10 /* RootViewController.h */,
+			);
+			path = RootViewController;
+			sourceTree = "<group>";
+		};
+		3BDAD091256248BD0057BD10 /* Project1 */ = {
+			isa = PBXGroup;
+			children = (
+				3BDAD092256248D20057BD10 /* Project1.h */,
+				3BDAD093256248E40057BD10 /* Project1.m */,
+			);
+			path = Project1;
+			sourceTree = "<group>";
+		};
+		3BDAD098256249880057BD10 /* Project2 */ = {
+			isa = PBXGroup;
+			children = (
+				3BDAD0992562499B0057BD10 /* ThirdScreen.h */,
+				3BDAD09A256249C20057BD10 /* ThirdScreen.m */,
+			);
+			path = Project2;
+			sourceTree = "<group>";
+		};
+		3BDAD09D256252590057BD10 /* MyFirstMap */ = {
+			isa = PBXGroup;
+			children = (
+				3BDAD09E256252770057BD10 /* MyFirstMap.h */,
+				3BDAD09F256252960057BD10 /* MyFirstMap.m */,
+				3BDAD0A225625C150057BD10 /* MapAnnotation.h */,
+				3BDAD0A325625C2A0057BD10 /* MapAnnotation.m */,
+			);
+			path = MyFirstMap;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,7 +183,6 @@
 			files = (
 				3BDAD07F256243B60057BD10 /* LaunchScreen.storyboard in Resources */,
 				3BDAD07C256243B60057BD10 /* Assets.xcassets in Resources */,
-				3BDAD07A256243B50057BD10 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,24 +193,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BDAD077256243B50057BD10 /* ViewController.m in Sources */,
 				3BDAD071256243B50057BD10 /* AppDelegate.m in Sources */,
+				3BDAD0A0256252960057BD10 /* MyFirstMap.m in Sources */,
+				3BDAD09B256249C20057BD10 /* ThirdScreen.m in Sources */,
+				3BDAD0A425625C2A0057BD10 /* MapAnnotation.m in Sources */,
 				3BDAD082256243B60057BD10 /* main.m in Sources */,
 				3BDAD074256243B50057BD10 /* SceneDelegate.m in Sources */,
+				3BDAD08C256246D50057BD10 /* RootViewController.m in Sources */,
+				3BDAD094256248E40057BD10 /* Project1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3BDAD078256243B50057BD10 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3BDAD079256243B50057BD10 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3BDAD07D256243B60057BD10 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

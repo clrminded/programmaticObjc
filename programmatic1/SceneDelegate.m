@@ -6,6 +6,7 @@
 //
 
 #import "SceneDelegate.h"
+#import "RootViewController.h"
 
 @interface SceneDelegate ()
 
@@ -18,6 +19,30 @@
     // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
     // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
     // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+    /*
+    _window = [[UIWindow alloc] initWithWindowScene:(UIWindowScene *)scene];
+    UIViewController *viewController = [[UIViewController alloc] init];
+        viewController.view.backgroundColor = [UIColor redColor];
+        _window.rootViewController = viewController;
+        [_window makeKeyAndVisible];}
+     */
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.windowScene = (UIWindowScene *)scene;
+    self.window.rootViewController = [[UINavigationController alloc]
+                                      initWithRootViewController: RootViewController.new];
+    //self.window.rootViewController = [[UITableViewController alloc]init];
+    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName: [UIColor whiteColor],
+                                                           NSFontAttributeName : [UIFont fontWithName:@"HelveticaNeue-CondensedBold" size:17],
+                                                           }];
+
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    [[UINavigationBar appearance] setBarTintColor:[UIColor redColor]];
+    [[UINavigationBar appearance] setTranslucent:NO];
+    [[UINavigationBar appearance] setBarStyle:UIBarStyleBlack];
+
+    self.window.backgroundColor = [UIColor colorWithDisplayP3Red:153.0/255.0 green:170.0/255.0 blue:187.0/255.0 alpha:0.8];
+    //self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
 }
 
 
