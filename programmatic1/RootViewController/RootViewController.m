@@ -100,6 +100,9 @@
 
 // Confguration for the submit button, once this button is clicked the user input in the text field will be the new text
 // in the label at the top!
+// Arent the constraints supposed to be at the top?
+/* I also saw a project that had all the items in one single function manybe
+   that might help put this shit in order? */
 -(void) addSubmitButton {
     _submitButton = [[UIButton alloc] init];
     [_submitButton setTitle: @"Talk" forState: UIControlStateNormal];
@@ -139,7 +142,13 @@
     [_nextButton.widthAnchor constraintEqualToConstant:88].active = YES;
     [_nextButton.heightAnchor constraintEqualToConstant:44].active = YES;
 }
-
+-(void) setThirdButtonConstraints {
+    _thirdButton.translatesAutoresizingMaskIntoConstraints = NO;
+    [_thirdButton.topAnchor constraintEqualToAnchor:_nextButton.bottomAnchor constant:5].active = YES;
+    [_thirdButton.centerXAnchor constraintEqualToAnchor:self.view.safeAreaLayoutGuide.centerXAnchor].active = YES;
+    [_thirdButton.widthAnchor constraintEqualToConstant:88].active = YES;
+    [_thirdButton.heightAnchor constraintEqualToConstant:44].active = YES;
+}
 -(void) addThirdButton {
     _thirdButton = [[UIButton alloc] init];
     [_thirdButton setTitle:@"Third" forState:UIControlStateNormal];
@@ -150,13 +159,7 @@
     [self.view addSubview:_thirdButton];
     [self setThirdButtonConstraints];
 }
--(void) setThirdButtonConstraints {
-    _thirdButton.translatesAutoresizingMaskIntoConstraints = NO;
-    [_thirdButton.topAnchor constraintEqualToAnchor:_nextButton.bottomAnchor constant:5].active = YES;
-    [_thirdButton.centerXAnchor constraintEqualToAnchor:self.view.safeAreaLayoutGuide.centerXAnchor].active = YES;
-    [_thirdButton.widthAnchor constraintEqualToConstant:88].active = YES;
-    [_thirdButton.heightAnchor constraintEqualToConstant:44].active = YES;
-}
+
 /* -------------------------- End of UI Configurations -------------------------------------------- */
 
 /* -------------------------- Start of Event Functions ------------------------------------------- */
