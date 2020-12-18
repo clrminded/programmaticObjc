@@ -23,6 +23,8 @@
 
 @interface RootViewController()
 
+// I got the iadea from swift, but man this is just cluttered now and I dont even know
+// What the heck to do to help fix it
 @property UILabel *textLabel;
 @property UILabel *nameLabel;
 @property UITextField *nameTextField;
@@ -100,7 +102,7 @@
 // in the label at the top!
 -(void) addSubmitButton {
     _submitButton = [[UIButton alloc] init];
-    [_submitButton setTitle: @"Submit" forState: UIControlStateNormal];
+    [_submitButton setTitle: @"Talk" forState: UIControlStateNormal];
     [_submitButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [_submitButton addTarget:self
                      action:@selector(buttonPressed)

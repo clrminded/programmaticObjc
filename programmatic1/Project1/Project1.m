@@ -2,7 +2,7 @@
 
 @interface Project1 () <UITableViewDelegate,UITableViewDataSource>
  
-
+// I really just got lost doing this
 @property (strong,nonatomic) UITableView *table;
 @property (strong,nonatomic) NSArray *content;
  
